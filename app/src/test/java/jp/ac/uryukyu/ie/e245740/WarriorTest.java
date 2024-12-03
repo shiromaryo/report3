@@ -13,7 +13,7 @@ public class WarriorTest {
             int beforeHitPoint = enemy.gethitPoint();
             warrior.attackWithWeponSkill(enemy);
             enemy.attack(warrior);
-            assertEquals(15,beforeHitPoint - enemy.gethitPoint());
+            assertEquals(30,beforeHitPoint - enemy.gethitPoint());
         }
     }
 }
